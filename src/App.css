@@ -1,0 +1,47 @@
+.container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.coin-container {
+  width: 200px;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 10px;
+}
+.coin-container .coins-image {
+  width: 200px;
+  height: 200px;
+  background-color: orange;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: center;
+}
+input {
+  background-color: black;
+  color: white;
+}
+button {
+  background-color: rgba(11, 190, 255, 0.811);
+  padding: 10px;
+  color: white;
+  width: 100px;
+  border: none;
+  border-radius: 10px;
+}
+.table-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+table {
+  padding: 10px;
+  text-align: center;
+}
+.total {
+  font-weight: bold;
+}
